@@ -1,0 +1,116 @@
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+form{
+    margin: 30px 10px 20px 10px;
+}
+
+.form-control{
+    border-radius: 8px;
+    border-color: rgb(182, 182, 182);
+    border-width: 1.2px;    
+}
+
+.form-group{
+    margin: 5px 20px;
+}
+
+
+.logo{
+    width: 70%;
+    display:block;
+    margin:auto;
+}
+
+.logo-banco{
+    display:block;
+    margin:auto;
+    width: 40%;
+    height: auto;
+    align-items: center;
+
+}
+
+form{
+    margin: 30px 10px 20px 10px;
+
+}
+
+
+main {
+    background-color: white;
+}
+
+.btn{
+    background-color: #0b8ad4e7;
+    border-radius: 10px;
+    display:block;
+    margin:auto;
+    height: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    width: 90%;
+    font-family: sans-serif;
+    font-size: 17px;
+
+}
+
+.btn2{
+    background-color: #0b8ad4e7;
+    border-radius: 10px;
+    display:block;
+    margin:auto;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    width: 90%;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+#google-logo{
+    width: 30px;
+    margin-right: 5px;
+
+}
+
+#registro{
+    font-size: 15px;
+    display:block;
+    margin:auto;
+    height: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1920px) {
+    main {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    main {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 520px) {
+    main {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    main {
+        background-color: var(--bs-warning);
+    }
+}

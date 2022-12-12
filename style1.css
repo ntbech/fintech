@@ -1,0 +1,75 @@
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 950px;
+  }
+
+header {
+    position: sticky;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    background-color: #F8F8F8;
+}
+
+.cadastro{
+    position: relative;
+    top: 10px;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    height: 10px;
+    width: center;
+    margin:auto;
+    
+}
+
+.form-group{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#tipo_transacao{
+    position:relative;
+    bottom: 10px;
+}
+
+.buttons{
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+
+#botao_salvar{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    width: 100px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#botao_cancelar{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+
+
